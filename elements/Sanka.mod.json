@@ -1,0 +1,9 @@
+{
+  "_fv": 10,
+  "_type": "function",
+  "definition": {
+    "code": "# Enter the function code here\n/give @a knowledge_book 2",
+    "name": "sanka",
+    "namespace": "mod"
+  }
+}

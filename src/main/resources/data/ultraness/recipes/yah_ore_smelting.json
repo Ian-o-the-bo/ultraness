@@ -1,0 +1,12 @@
+{
+  "group": "ultraness",
+  "type": "minecraft:smelting",
+  "experience": 1.33,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "ultraness:yah_ore"
+  },
+  "result": {
+    "item": "ultraness:yah_ingot"
+  }
+}

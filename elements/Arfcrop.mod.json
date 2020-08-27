@@ -1,0 +1,53 @@
+{
+  "_fv": 10,
+  "_type": "plant",
+  "definition": {
+    "renderType": 12,
+    "texture": "arfcrop",
+    "customModelName": "Cross model",
+    "plantType": "growapable",
+    "staticPlantGenerationType": "Flower",
+    "growapableSpawnType": "Crop",
+    "growapableMaxHeight": 14,
+    "name": "Arfcrop",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "DECORATIONS"
+    },
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "luminance": 1.0,
+    "unbreakable": false,
+    "soundOnStep": {
+      "value": "GROUND"
+    },
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 8,
+    "forceTicking": false,
+    "emissiveRendering": false,
+    "hasTileEntity": true,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "XYZ",
+    "aiPathNodeType": "BLOCKED",
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "frequencyOnChunks": 40,
+    "spawnWorldTypes": [
+      "Surface",
+      "Nether",
+      "End",
+      "CUSTOM:Lightningworld"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Lightning"
+      }
+    ]
+  }
+}

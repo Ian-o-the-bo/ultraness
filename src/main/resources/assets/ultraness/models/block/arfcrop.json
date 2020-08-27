@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "ultraness:blocks/arfcrop",
+    "particle": "ultraness:blocks/arfcrop"
+  }
+}

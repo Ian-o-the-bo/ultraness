@@ -1,0 +1,47 @@
+{
+  "_fv": 10,
+  "_type": "dimension",
+  "definition": {
+    "portalFrame": {
+      "value": "Blocks.FIRE"
+    },
+    "portalParticles": {
+      "value": "PORTAL"
+    },
+    "portalLuminance": 0.0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Lightningworld Portal Igniter",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "lightning_staff",
+    "portalTexture": "yah_ore_block",
+    "enablePortal": true,
+    "biomesInDimension": [
+      {
+        "value": "mutated_extreme_hills_with_trees"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "Blocks.DAYLIGHT_DETECTOR_INVERTED"
+    },
+    "fluidBlock": {
+      "value": "Blocks.SPONGE#1"
+    },
+    "airColor": {
+      "value": -16738048,
+      "falpha": 0.0
+    },
+    "canRespawnHere": true,
+    "hasFog": true,
+    "hasWeather": true,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "BED_EXPLODES",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false
+  }
+}

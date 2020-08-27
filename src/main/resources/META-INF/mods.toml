@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+
+[[mods]]
+modId="ultraness"
+version="1.0.0"
+displayName="ultraness"
+credits="ian o the bo"
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+authors="vdt"
+description='''
+a lot of stuff relating to lightning and a new biome plus dimension
+'''
+
+[[dependencies.ultraness]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

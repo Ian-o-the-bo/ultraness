@@ -1,0 +1,93 @@
+{
+  "_fv": 10,
+  "_type": "biome",
+  "definition": {
+    "groundBlock": {
+      "value": "Blocks.DIAMOND_ORE"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.TNT"
+    },
+    "generateLakes": true,
+    "treeType": 1,
+    "vanillaTreeType": "Default",
+    "minHeight": 222,
+    "spawnVines": true,
+    "treeVines": {
+      "value": "Blocks.PISTON_EXTENSION"
+    },
+    "treeStem": {
+      "value": "Blocks.REPEATING_COMMAND_BLOCK"
+    },
+    "treeBranch": {
+      "value": "Blocks.LAVA"
+    },
+    "treeFruits": {
+      "value": "Blocks.TNT"
+    },
+    "airColor": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -16777216,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -3355444,
+      "falpha": 0.0
+    },
+    "treesPerChunk": 48,
+    "grassPerChunk": 3,
+    "flowersPerChunk": 13,
+    "mushroomsPerChunk": 12,
+    "bigMushroomsChunk": 53,
+    "sandPathcesPerChunk": 11,
+    "gravelPatchesPerChunk": 6,
+    "reedsPerChunk": 47,
+    "cactiPerChunk": 36,
+    "rainingPossibility": 0.0,
+    "temperature": 2.0,
+    "baseHeight": 5.199999999999999,
+    "heightVariation": 2.0,
+    "spawnBiome": true,
+    "biomeWeight": 141,
+    "biomeType": "WARM",
+    "biomeCategory": "NONE",
+    "parent": {
+      "value": "forest"
+    },
+    "biomeDictionaryTypes": [
+      "FOREST"
+    ],
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityAgeable"
+        },
+        "minGroup": 1,
+        "maxGroup": 15,
+        "weight": 15,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityAmbientCreature"
+        },
+        "minGroup": 1,
+        "maxGroup": 15,
+        "weight": 15,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Quigpet"
+        },
+        "minGroup": 1,
+        "maxGroup": 15,
+        "weight": 15,
+        "spawnType": "creature"
+      }
+    ]
+  }
+}

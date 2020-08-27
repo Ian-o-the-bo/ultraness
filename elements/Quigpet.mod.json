@@ -1,0 +1,118 @@
+{
+  "_fv": 10,
+  "_type": "mob",
+  "definition": {
+    "mobName": "Quig pet",
+    "mobLabel": "dogquig",
+    "mobModelName": "Biped",
+    "mobModelTexture": "quigpet.png",
+    "mobModelGlowTexture": "",
+    "modelWidth": 0.6,
+    "modelHeight": 1.8,
+    "modelShadowSize": 0.5,
+    "mountedYOffset": 0.0,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "isBoss": true,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": "Blocks.TNT"
+    },
+    "equipmentOffHand": {
+      "value": "Blocks.PISTON_EXTENSION"
+    },
+    "equipmentHelmet": {
+      "value": "Items.FLINT_AND_STEEL"
+    },
+    "equipmentBody": {
+      "value": "Items.BOW"
+    },
+    "equipmentLeggings": {
+      "value": "Items.SPECTRAL_ARROW"
+    },
+    "equipmentBoots": {
+      "value": "Items.KNOWLEDGE_BOOK"
+    },
+    "mobBehaviourType": "Creature",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 3,
+    "movementSpeed": 4.0,
+    "armorBaseValue": 0.0,
+    "trackingRange": 64,
+    "health": 90,
+    "xpAmount": 0,
+    "waterMob": true,
+    "flyingMob": true,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "disableCollisions": false,
+    "ridable": true,
+    "canControlForward": true,
+    "canControlStrafe": true,
+    "immuneToFire": true,
+    "immuneToArrows": true,
+    "immuneToFallDamage": true,
+    "immuneToCactus": true,
+    "immuneToDrowning": true,
+    "immuneToLightning": true,
+    "immuneToPotions": true,
+    "immuneToPlayer": true,
+    "mobDrop": {
+      "value": ""
+    },
+    "livingSound": {
+      "value": ""
+    },
+    "hurtSound": {
+      "value": "entity.generic.hurt"
+    },
+    "deathSound": {
+      "value": "entity.generic.death"
+    },
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
+    "hasAI": true,
+    "aiBase": "Wolf",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"fly\"><field name=\"speed\">99999</field><next><block type=\"wander\"><field name=\"speed\">99999</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">TRUE</field><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><next><block type=\"look_around\"><next><block type=\"swim_in_water\"/></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "breedable": true,
+    "tameable": false,
+    "breedTriggerItems": [
+      {
+        "value": "Blocks.BED"
+      }
+    ],
+    "ranged": true,
+    "rangedAttackItem": {
+      "value": "Blocks.FIRE"
+    },
+    "rangedItemType": "Default item",
+    "spawnThisMob": true,
+    "doesDespawnWhenIdle": false,
+    "spawningProbability": 20,
+    "mobSpawningType": "ambient",
+    "minNumberOfMobsPerGroup": 46,
+    "maxNumberOfMobsPerGroup": 117,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Lightning"
+      }
+    ],
+    "spawnInDungeons": true
+  }
+}

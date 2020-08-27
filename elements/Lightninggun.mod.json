@@ -1,0 +1,45 @@
+{
+  "_fv": 10,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "lightning_staff",
+    "customModelName": "Normal",
+    "name": "Lightninggun",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 8,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": true,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 99999.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Items.KNOWLEDGE_BOOK"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "LightninggunBulletHitsPlayer"
+    },
+    "onBulletHitsPlayer": {
+      "name": "LightninggunBulletHitsPlayer"
+    },
+    "onBulletHitsEntity": {
+      "name": "YahOreBlockBlockAdded"
+    }
+  }
+}

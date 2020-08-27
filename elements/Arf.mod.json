@@ -1,0 +1,25 @@
+{
+  "_fv": 10,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "arf",
+    "customModelName": "Normal",
+    "name": "Arf",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "FOOD"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 75,
+    "saturation": 4.8999999999999995,
+    "eatingSpeed": 70,
+    "forDogs": true,
+    "isAlwaysEdible": true,
+    "animation": "drink",
+    "hasGlow": true,
+    "onEaten": {
+      "name": "ArfAlert"
+    }
+  }
+}

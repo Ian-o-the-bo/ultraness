@@ -1,0 +1,30 @@
+{
+  "group": "ultraness",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "ultraness:lightning_gem"
+    },
+    "1": {
+      "item": "ultraness:lightning_gem"
+    },
+    "2": {
+      "item": "ultraness:lightning_gem"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ultraness:lightning_axe",
+    "count": 1
+  }
+}

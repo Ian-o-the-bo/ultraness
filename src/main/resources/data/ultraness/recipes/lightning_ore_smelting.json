@@ -1,0 +1,12 @@
+{
+  "group": "ultraness",
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "ultraness:lightning_ore"
+  },
+  "result": {
+    "item": "ultraness:lightning_gem"
+  }
+}

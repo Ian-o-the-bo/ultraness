@@ -1,0 +1,26 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "yah_pickaxe",
+    "customModelName": "Normal",
+    "name": "Yah Pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 18,
+    "efficiency": 51.5,
+    "attackSpeed": 1.0,
+    "enchantability": 40,
+    "damageVsEntity": 6.6,
+    "usageCount": 786,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

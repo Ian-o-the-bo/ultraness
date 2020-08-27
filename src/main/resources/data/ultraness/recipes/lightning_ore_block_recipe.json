@@ -1,0 +1,42 @@
+{
+  "group": "ultraness",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ultraness:lightning_gem"
+    },
+    "1": {
+      "item": "ultraness:lightning_gem"
+    },
+    "2": {
+      "item": "ultraness:lightning_gem"
+    },
+    "3": {
+      "item": "ultraness:lightning_gem"
+    },
+    "4": {
+      "item": "ultraness:lightning_gem"
+    },
+    "5": {
+      "item": "ultraness:lightning_gem"
+    },
+    "6": {
+      "item": "ultraness:lightning_gem"
+    },
+    "7": {
+      "item": "ultraness:lightning_gem"
+    },
+    "8": {
+      "item": "ultraness:lightning_gem"
+    }
+  },
+  "result": {
+    "item": "ultraness:lightning_ore_block",
+    "count": 1
+  }
+}

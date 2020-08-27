@@ -1,0 +1,25 @@
+{
+  "_fv": 10,
+  "_type": "potion",
+  "definition": {
+    "name": "Bestofall",
+    "effectName": "Bestofall",
+    "icon": "arf.png",
+    "color": {
+      "value": -12520507,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": true,
+    "registerPotionType": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "BestofallPotionStartedapplied"
+    },
+    "onExpired": {
+      "name": "BestofallPotionStartedapplied"
+    }
+  }
+}

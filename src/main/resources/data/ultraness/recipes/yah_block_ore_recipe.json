@@ -1,0 +1,13 @@
+{
+  "group": "ultraness",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ultraness:yah_ore_block"
+    }
+  ],
+  "result": {
+    "item": "ultraness:yah_ingot",
+    "count": 9
+  }
+}

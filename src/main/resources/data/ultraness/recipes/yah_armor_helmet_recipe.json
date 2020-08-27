@@ -1,0 +1,29 @@
+{
+  "group": "ultraness",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "ultraness:yah_ingot"
+    },
+    "1": {
+      "item": "ultraness:yah_ingot"
+    },
+    "2": {
+      "item": "ultraness:yah_ingot"
+    },
+    "3": {
+      "item": "ultraness:yah_ingot"
+    },
+    "5": {
+      "item": "ultraness:yah_ingot"
+    }
+  },
+  "result": {
+    "item": "ultraness:yah_armor_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,694 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "YahOre",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yah_ore"
+    },
+    {
+      "name": "YahOreBlock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yah_ore_block"
+    },
+    {
+      "name": "YahIngot",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yah_ingot"
+    },
+    {
+      "name": "YahOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yah_ore_block_recipe"
+    },
+    {
+      "name": "YahBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yah_block_ore_recipe"
+    },
+    {
+      "name": "YahOreSmelting",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yah_ore_smelting"
+    },
+    {
+      "name": "YahPickaxe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yah_pickaxe"
+    },
+    {
+      "name": "YahAxe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yah_axe"
+    },
+    {
+      "name": "YahSword",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yah_sword"
+    },
+    {
+      "name": "YahShovel",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yah_shovel"
+    },
+    {
+      "name": "YahHoe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yah_hoe"
+    },
+    {
+      "name": "YahPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yah_pickaxe_recipe"
+    },
+    {
+      "name": "YahAxeRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yah_axe_recipe"
+    },
+    {
+      "name": "YahSwordRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yah_sword_recipe"
+    },
+    {
+      "name": "YahShovelRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yah_shovel_recipe"
+    },
+    {
+      "name": "YahHoeRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yah_hoe_recipe"
+    },
+    {
+      "name": "YahArmor",
+      "type": "armor",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yah_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "YahArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yah_armor_helmet_recipe"
+    },
+    {
+      "name": "YahArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yah_armor_body_recipe"
+    },
+    {
+      "name": "YahArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yah_armor_leggings_recipe"
+    },
+    {
+      "name": "YahArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yah_armor_boots_recipe"
+    },
+    {
+      "name": "YahOreBlockBlockAdded",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yah_ore_block_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LightningOre",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightning_ore"
+    },
+    {
+      "name": "LightningOreBlock",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightning_ore_block"
+    },
+    {
+      "name": "LightningGem",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightning_gem"
+    },
+    {
+      "name": "LightningOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightning_ore_block_recipe"
+    },
+    {
+      "name": "LightningBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightning_block_ore_recipe"
+    },
+    {
+      "name": "LightningOreSmelting",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightning_ore_smelting"
+    },
+    {
+      "name": "LightningPickaxe",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightning_pickaxe"
+    },
+    {
+      "name": "LightningAxe",
+      "type": "tool",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightning_axe"
+    },
+    {
+      "name": "LightningSword",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightning_sword"
+    },
+    {
+      "name": "LightningShovel",
+      "type": "tool",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightning_shovel"
+    },
+    {
+      "name": "LightningPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightning_pickaxe_recipe"
+    },
+    {
+      "name": "LightningAxeRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightning_axe_recipe"
+    },
+    {
+      "name": "LightningSwordRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightning_sword_recipe"
+    },
+    {
+      "name": "LightningShovelRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightning_shovel_recipe"
+    },
+    {
+      "name": "LightningArmor",
+      "type": "armor",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightning_armor"
+    },
+    {
+      "name": "LightningArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightning_armor_helmet_recipe"
+    },
+    {
+      "name": "LightningArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightning_armor_body_recipe"
+    },
+    {
+      "name": "LightningArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightning_armor_leggings_recipe"
+    },
+    {
+      "name": "LightningArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightning_armor_boots_recipe"
+    },
+    {
+      "name": "LightningStaff",
+      "type": "tool",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightning_staff"
+    },
+    {
+      "name": "LightningStaffRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightning_staff_recipe"
+    },
+    {
+      "name": "Lightningworld",
+      "type": "dimension",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightningworld"
+    },
+    {
+      "name": "Lightning",
+      "type": "biome",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightning"
+    },
+    {
+      "name": "Quigpet",
+      "type": "mob",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quigpet"
+    },
+    {
+      "name": "Sanka",
+      "type": "function",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sanka"
+    },
+    {
+      "name": "LightninggunBulletHitsPlayer",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightninggun_bullet_hits_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lightninggun",
+      "type": "gun",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightninggun"
+    },
+    {
+      "name": "Knowledgebook",
+      "type": "command",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "knowledgebook"
+    },
+    {
+      "name": "ArfAlert",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arf_alert",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Arf",
+      "type": "food",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arf"
+    },
+    {
+      "name": "Fuelgood",
+      "type": "item",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fuelgood"
+    },
+    {
+      "name": "Infinite",
+      "type": "fuel",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infinite"
+    },
+    {
+      "name": "BestofallPotionStartedapplied",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bestofall_potion_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bestofall",
+      "type": "potion",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bestofall"
+    },
+    {
+      "name": "Arfcrop",
+      "type": "plant",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arfcrop"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.ultraness.yah_armorlegs": "Yah Leggings",
+      "item.ultraness.yah_armorbody": "Yah Chestplate",
+      "item.ultraness.yah_armor_boots": "Yah Boots",
+      "item.tyguoitrttyfhtchcf.yah_sword": "Yah Sword",
+      "block.tyguoitrttyfhtchcf.yah_ore": "Yah Ore",
+      "item.ultraness.yah_shovel": "Yah Shovel",
+      "item.ultraness.lightning_sword": "Lightning Sword",
+      "item.ultraness.lightning_armor_helmet": "Lightning Helmet",
+      "item.tyguoitrttyfhtchcf.yah_armorlegs": "Yah Leggings",
+      "item.tyguoitrttyfhtchcf.yah_axe": "Yah Axe",
+      "item.ultraness.yah_pickaxe": "Yah Pickaxe",
+      "item.tyguoitrttyfhtchcf.yah_armorbody": "Yah Chestplate",
+      "item.minecraft.tipped_arrow.effect.bestofall": "Arrow of Bestofall",
+      "item.minecraft.lingering_potion.effect.bestofall": "Lingering Bestofall",
+      "item.tyguoitrttyfhtchcf.lightning_sword": "Lightning Sword",
+      "item.ultraness.yah_hoe": "Yah Hoe",
+      "item.tyguoitrttyfhtchcf.lightning_armorhelmet": "Lightning Helmet",
+      "item.tyguoitrttyfhtchcf.yah_ingot": "Yah",
+      "item.ultraness.lightning_gem": "Lightning",
+      "item.ultraness.lightning_armor_chestplate": "Lightning Chestplate",
+      "item.tyguoitrttyfhtchcf.lightning_armorlegs": "Lightning Leggings",
+      "item.ultraness.lightning_armorbody": "Lightning Chestplate",
+      "effect.bestofall": "Bestofall",
+      "item.tyguoitrttyfhtchcf.lightning_armorbody": "Lightning Chestplate",
+      "item.tyguoitrttyfhtchcf.quigpet": "Quig pet Spawn Egg",
+      "item.tyguoitrttyfhtchcf.lightning_armorboots": "Lightning Boots",
+      "item.ultraness.yah_ingot": "Yah",
+      "block.ultraness.lightning_ore": "Lightning Ore",
+      "item.ultraness.lightning_pickaxe": "Lightning Pickaxe",
+      "item.ultraness.arf": "Arf",
+      "item.tyguoitrttyfhtchcf.lightning_gem": "Lightning",
+      "item.ultraness.lightning_armorlegs": "Lightning Leggings",
+      "block.ultraness.yah_ore_block": "Block of Yah",
+      "item.tyguoitrttyfhtchcf.yah_armorboots": "Yah Boots",
+      "entity.ultraness.quigpet": "Quig pet",
+      "item.ultraness.lightninggun": "Lightninggun",
+      "item.ultraness.lightningworld": "Lightningworld Portal Igniter",
+      "block.tyguoitrttyfhtchcf.lightning_ore_block": "Block of Lightning",
+      "item.ultraness.yah_armor_helmet": "Yah Helmet",
+      "block.ultraness.arfcrop": "Arfcrop",
+      "block.ultraness.yah_ore": "Yah Ore",
+      "item.ultraness.lightning_armor_boots": "Lightning Boots",
+      "item.tyguoitrttyfhtchcf.lightning_shovel": "Lightning Shovel",
+      "block.ultraness.lightning_ore_block": "Block of Lightning",
+      "item.minecraft.splash_potion.effect.bestofall": "Splash Bestofall",
+      "item.tyguoitrttyfhtchcf.lightningworld": "Lightningworld Portal Igniter",
+      "item.ultraness.quigpet": "Quig pet Spawn Egg",
+      "item.ultraness.lightning_armor_leggings": "Lightning Leggings",
+      "item.ultraness.yah_armorhelmet": "Yah Helmet",
+      "item.ultraness.yah_armor_leggings": "Yah Leggings",
+      "item.minecraft.potion.effect.bestofall": "Bestofall",
+      "item.tyguoitrttyfhtchcf.lightning_pickaxe": "Lightning Pickaxe",
+      "item.ultraness.lightning_shovel": "Lightning Shovel",
+      "item.tyguoitrttyfhtchcf.yah_hoe": "Yah Hoe",
+      "item.ultraness.yah_armorboots": "Yah Boots",
+      "item.ultraness.lightning_armorhelmet": "Lightning Helmet",
+      "item.ultraness.yah_armor_chestplate": "Yah Chestplate",
+      "entity.tyguoitrttyfhtchcf.quigpet": "Quig pet",
+      "item.ultraness.lightning_axe": "Lightning Axe",
+      "block.tyguoitrttyfhtchcf.yah_ore_block": "Block of Yah",
+      "item.ultraness.lightning_staff": "Lightning Hoe",
+      "item.tyguoitrttyfhtchcf.yah_shovel": "Yah Shovel",
+      "item.ultraness.fuelgood": "Fuelgood",
+      "item.ultraness.yah_axe": "Yah Axe",
+      "item.tyguoitrttyfhtchcf.yah_armorhelmet": "Yah Helmet",
+      "item.tyguoitrttyfhtchcf.lightninggun": "Lightninggun",
+      "item.tyguoitrttyfhtchcf.yah_pickaxe": "Yah Pickaxe",
+      "item.tyguoitrttyfhtchcf.lightning_axe": "Lightning Axe",
+      "item.tyguoitrttyfhtchcf.lightning_staff": "Lightning Hoe",
+      "item.ultraness.yah_sword": "Yah Sword",
+      "item.ultraness.lightning_armorboots": "Lightning Boots",
+      "block.tyguoitrttyfhtchcf.lightning_ore": "Lightning Ore"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "ultraness",
+    "modName": "ultraness",
+    "version": "1.0.0",
+    "description": "a lot of stuff relating to lightning and a new biome plus dimension",
+    "author": "vdt",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "quigpet",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "credits": "ian o the bo",
+    "modElementsPackage": "net.mcreator.ultraness",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000432115
+}

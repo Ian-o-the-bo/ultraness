@@ -1,0 +1,12 @@
+{
+  "group": "ultraness",
+  "type": "minecraft:campfire_cooking",
+  "experience": 29,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "ultraness:yah_sword"
+  },
+  "result": {
+    "item": "ultraness:yah_ore_block"
+  }
+}

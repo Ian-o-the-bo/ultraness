@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ultraness:blocks/yah_ore_block",
+    "particle": "ultraness:blocks/yah_ore_block"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "yah_sword",
+    "customModelName": "Normal",
+    "name": "Yah Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 4,
+    "efficiency": 9.0,
+    "attackSpeed": 1.0,
+    "enchantability": 27,
+    "damageVsEntity": 4.0,
+    "usageCount": 614,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

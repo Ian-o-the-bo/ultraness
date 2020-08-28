@@ -1,1 +1,11 @@
-{}
+{
+  "dmcafreindly": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "ultraness:47baa12f-c5ef-46e1-9f46-9c09dc7383ca",
+        "stream": false
+      }
+    ]
+  }
+}

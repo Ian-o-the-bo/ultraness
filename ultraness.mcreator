@@ -591,10 +591,25 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "arfcrop"
+    },
+    {
+      "name": "Gitchy",
+      "type": "musicdisc",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gitchy"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "dmcafreindly",
+      "file": "47baa12f-c5ef-46e1-9f46-9c09dc7383ca",
+      "category": "master"
+    }
+  ],
   "language_map": {
     "en_us": {
       "item.ultraness.yah_armorlegs": "Yah Leggings",
@@ -640,6 +655,7 @@
       "block.ultraness.yah_ore": "Yah Ore",
       "item.ultraness.lightning_armor_boots": "Lightning Boots",
       "item.tyguoitrttyfhtchcf.lightning_shovel": "Lightning Shovel",
+      "item.ultraness.gitchy.desc": "robot snake + bon jovi",
       "block.ultraness.lightning_ore_block": "Block of Lightning",
       "item.minecraft.splash_potion.effect.bestofall": "Splash Bestofall",
       "item.tyguoitrttyfhtchcf.lightningworld": "Lightningworld Portal Igniter",
@@ -665,6 +681,7 @@
       "item.tyguoitrttyfhtchcf.lightninggun": "Lightninggun",
       "item.tyguoitrttyfhtchcf.yah_pickaxe": "Yah Pickaxe",
       "item.tyguoitrttyfhtchcf.lightning_axe": "Lightning Axe",
+      "item.ultraness.gitchy": "Gitchy",
       "item.tyguoitrttyfhtchcf.lightning_staff": "Lightning Hoe",
       "item.ultraness.yah_sword": "Yah Sword",
       "item.ultraness.lightning_armorboots": "Lightning Boots",

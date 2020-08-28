@@ -22,21 +22,21 @@
       "value": "GROUND"
     },
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:Arfcrop"
     },
-    "dropAmount": 8,
+    "dropAmount": 11,
     "forceTicking": false,
-    "emissiveRendering": false,
+    "emissiveRendering": true,
     "hasTileEntity": true,
-    "isReplaceable": false,
+    "isReplaceable": true,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
       "value": ""
     },
     "offsetType": "XYZ",
     "aiPathNodeType": "BLOCKED",
-    "flammability": 0,
-    "fireSpreadSpeed": 0,
+    "flammability": 1,
+    "fireSpreadSpeed": 1,
     "frequencyOnChunks": 40,
     "spawnWorldTypes": [
       "Surface",

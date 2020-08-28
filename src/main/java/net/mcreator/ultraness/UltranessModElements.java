@@ -47,6 +47,8 @@ public class UltranessModElements {
 	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public UltranessModElements() {
+		sounds.put(new ResourceLocation("ultraness", "dmcafreindly"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("ultraness", "dmcafreindly")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("ultraness").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

@@ -29,6 +29,7 @@ import net.minecraft.world.IWorld;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
+import net.minecraft.util.Direction;
 import net.minecraft.tileentity.TileEntityType;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.pathfinding.PathNodeType;
@@ -38,6 +39,7 @@ import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
+import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.item.BlockItem;
 import net.minecraft.entity.MobEntity;
 import net.minecraft.client.renderer.RenderTypeLookup;
@@ -139,6 +141,16 @@ public class ArfcropBlock extends UltranessModElements.ModElement {
 		}
 
 		@Override
+		public boolean isReplaceable(BlockState state, BlockItemUseContext useContext) {
+			return true;
+		}
+
+		@Override
+		public int getFlammability(BlockState state, IBlockReader world, BlockPos pos, Direction face) {
+			return 1;
+		}
+
+		@Override
 		public PathNodeType getAiPathNodeType(BlockState state, IBlockReader world, BlockPos pos, MobEntity entity) {
 			return PathNodeType.BLOCKED;
 		}
@@ -148,12 +160,23 @@ public class ArfcropBlock extends UltranessModElements.ModElement {
 			return Block.OffsetType.XYZ;
 		}
 
+		@OnlyIn(Dist.CLIENT)
+		@Override
+		public boolean isEmissiveRendering(BlockState blockState) {
+			return true;
+		}
+
+		@Override
+		public int getFireSpreadSpeed(BlockState state, IBlockReader world, BlockPos pos, Direction face) {
+			return 1;
+		}
+
 		@Override
 		public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 8));
+			return Collections.singletonList(new ItemStack(ArfcropBlock.block, (int) (11)));
 		}
 
 		@Override

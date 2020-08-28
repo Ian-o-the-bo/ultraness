@@ -1,0 +1,17 @@
+{
+  "_fv": 10,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "music",
+    "name": "Gitchy",
+    "description": "robot snake + bon jovi",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:dmcafreindly"
+    },
+    "specialInfo": [],
+    "hasGlow": true
+  }
+}

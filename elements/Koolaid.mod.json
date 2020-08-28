@@ -1,0 +1,17 @@
+{
+  "_fv": 10,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Koolaid",
+    "type": "ALL",
+    "rarity": "COMMON",
+    "minLevel": 1,
+    "maxLevel": 1004,
+    "damageModifier": 1002,
+    "compatibleEnchantments": [],
+    "compatibleItems": [],
+    "isTreasureEnchantment": true,
+    "isCurse": false,
+    "isAllowedOnBooks": true
+  }
+}
